@@ -4,7 +4,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import groceryItemsRouter from './routes/groceryItemsRoute';
 import groceryInventoryRouter from './routes/groceryInventoryRoute';
-import userRoute from './routes/userRoute';
+import userRoute from './routes/userRoute';  
 
 const app = express();
 const port = 3000;
